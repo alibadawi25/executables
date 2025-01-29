@@ -1,5 +1,5 @@
 import { Button } from "antd";
-
+import GithubButton from "./GitHubButton";
 export default function DownloadPage() {
   const downloadExe = () => {
     window.location.href =
@@ -45,6 +45,11 @@ export default function DownloadPage() {
         <Button type="primary" size="large" onClick={downloadExe}>
           Download Now
         </Button>
+      </div>
+
+      <div style={{ textAlign: "center", padding: "50px" }}>
+        {/* GitHub Button */}
+        <GithubButton />
       </div>
     </div>
   );
