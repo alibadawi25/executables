@@ -3,7 +3,7 @@ import { Button } from "antd";
 export default function DownloadPage() {
   const downloadExe = () => {
     window.location.href =
-      "https://github.com/alibadawi25/executables/releases/download/v0.0.0/Code.For.Life.exe";
+      "https://github.com/alibadawi25/executables/releases/download/v0.0.1/Code.For.Life.exe";
   };
 
   return (
