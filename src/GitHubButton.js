@@ -63,7 +63,7 @@ const StyledWrapper = styled.div`
   }
 
   .button-icon:hover {
-    border-color: #ff98a2;
+    border-color: rgb(39, 0, 97);
   }
 
   .button-icon:hover .cube {
@@ -84,7 +84,7 @@ const StyledWrapper = styled.div`
   }
 
   .top {
-    background: #ff98a2;
+    background: rgb(39, 0, 97);
     color: #fff;
     transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);
   }
