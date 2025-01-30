@@ -1,9 +1,10 @@
 import { Button } from "antd";
 import GithubButton from "./GitHubButton";
+import GithubStarButton from "./GithubStarButton";
 export default function DownloadPage() {
   const downloadExe = () => {
     window.location.href =
-      "https://github.com/alibadawi25/executables/releases/download/v0.0.1/Code.For.Life.exe";
+      "https://github.com/alibadawi25/programming_educational_game/releases/download/v0.0.0/Code-For-Life.exe";
   };
 
   return (
