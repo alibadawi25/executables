@@ -1,6 +1,5 @@
 import { Button } from "antd";
 import GithubButton from "./GitHubButton";
-import GithubStarButton from "./GithubStarButton";
 export default function DownloadPage() {
   const downloadExe = () => {
     window.location.href =
